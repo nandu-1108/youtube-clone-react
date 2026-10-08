@@ -21,7 +21,7 @@ A **fully responsive YouTube clone** built with **React**, **CSS**, and **Vercel
 Watch videos, search content, and explore a clean, interactive UI — just like YouTube!  
 
 ## 🚀 Live Demo
-Check it out live here: [YouTube Clone Live](https://youtube-clone-react-gules-pi.vercel.app)
+Check it out live here:  https://nandu-1108.github.io/youtube-clone-react/
 
 ## 💻 Features
 - Modern React frontend
