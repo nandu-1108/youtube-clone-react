@@ -1,16 +1,15 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
-const Card = (props) => {
+const Card = ({ id, title, channel, views, src }) => {
   return (
     <div>
-      <a href={props.url} target="_blank" rel="noreferrer" className="video-card">
-        <img src={props.src} alt="React Basics Tutorial" height={300} width={450} />
-        <h3>{props.title}</h3>
-        <p>{props.channelname}</p>
-        <p>{props.views}</p>
-        <p>{props.id}</p>
-      </a>
-
+      <Link to={`/watch/${id}`} className="video-card">
+        <img src={src} alt={title} height={300} width={450} />
+        <h3>{title}</h3>
+        <p>{channel}</p>
+        <p>{views}</p>
+      </Link>
     </div>
   )
 }

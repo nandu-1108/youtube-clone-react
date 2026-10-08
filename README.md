@@ -14,3 +14,33 @@ The React Compiler is not enabled on this template because of its impact on dev 
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+# YouTube Clone React 🎬
+
+A **fully responsive YouTube clone** built with **React**, **CSS**, and **Vercel deployment**.  
+Watch videos, search content, and explore a clean, interactive UI — just like YouTube!  
+
+## 🚀 Live Demo
+Check it out live here: [YouTube Clone Live](https://youtube-clone-react-gules-pi.vercel.app)
+
+## 💻 Features
+- Modern React frontend
+- Video search and playback interface
+- Responsive design for all screen sizes
+- Styled with CSS for a smooth user experience
+- Deployment on Vercel for instant access
+
+## 🛠 Tech Stack
+- React.js
+- CSS
+- Vercel (Hosting)
+- Git & GitHub
+
+## 📂 Installation
+If you want to run locally:
+
+```bash
+git clone https://github.com/nandu-1108/youtube-clone-react.git
+cd youtube-clone-react
+npm install
+npm start   how can i add this 
